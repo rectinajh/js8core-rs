@@ -75,8 +75,7 @@ js8core-rs
 ├── codec        # Huffman codec for compression
 ├── relay        # Store-and-forward with TTL logic
 └── examples     # CLI usage, test vectors, integration
-
-
+```
 
 
 Each module is self-contained and exposed as a Rust crate. Future support includes:
@@ -136,5 +135,6 @@ That means:
 
 ---
 
+Turn on the radio and receive the signal:
 > `CQ CQ CQ DE JS8CORE-RS PSE QSY 14.078 RUSTCORE DE MARS`  
 > _This isn’t just code. It’s how civilizations keep talking._
