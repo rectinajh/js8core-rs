@@ -67,7 +67,16 @@ Whether on Earth or elsewhere, `js8core-rs` supports signal-based messaging even
 
 ## 🧱 Module Structure
 
-js8core-rs ├── audio # I/O abstraction (WAV/PCM) ├── modem # Frame sync, symbol demod, SNR estimation ├── protocol # JS8 message logic and framing ├── codec # Huffman codec for compression ├── relay # Store-and-forward with TTL logic └── examples # CLI usage, test vectors, integration
+```text
+js8core-rs
+├── audio        # I/O abstraction (WAV/PCM)
+├── modem        # Frame sync, symbol demod, SNR estimation
+├── protocol     # JS8 message logic and framing
+├── codec        # Huffman codec for compression
+├── relay        # Store-and-forward with TTL logic
+└── examples     # CLI usage, test vectors, integration
+
+
 
 
 Each module is self-contained and exposed as a Rust crate. Future support includes:
